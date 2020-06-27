@@ -17,7 +17,7 @@ public class Calculator extends HttpServlet {
         {
           response.setContentType("text/html");
           PrintWriter out= response.getWriter();
-        
+       // added a comment  
     	  out.println("<html>");
     	  out.println("<body bgcolor=\"Aqua\">");
     	  out.println("<h1>Hello from StarAgile</h1>");
